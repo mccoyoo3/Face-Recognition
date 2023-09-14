@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "153155104018",
+    "firebase_url": "https://profipass-a1b93-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "profipass-a1b93",
+    "storage_bucket": "profipass-a1b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153155104018:android:0f0f0f48c8c817592897cb",
+        "android_client_info": {
+          "package_name": "com.ProfiPassInc.Profipass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153155104018-2pl7v5ie0n4i0cfo0jmujqn988667uj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD1Lfau9dAA79kISCZtS9PpwWOYnHE3G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153155104018-2pl7v5ie0n4i0cfo0jmujqn988667uj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
