@@ -3,21 +3,13 @@ using UnityEngine.UI;
 using System.Collections;
 using UIToolkit.UI;
 using System;
-using TMPro;
 
-public class DashboardView : UIView {
+public class EventsView : UIView {
+ 
 
-	public TextMeshProUGUI dateText;
-
-	public UISegue segueToEvents;
 
 	public override void ViewWillAppear (UIView sourceView = null) {
 		base.ViewWillAppear (sourceView);
-        // Get the current date and format it as desired
-        string currentDate = DateTime.Now.ToString("dd-MM-yyyy");
-
-        // Set the text of the Text element to display the date
-        dateText.text = currentDate;
         //insert custom code here to be executed just before view will appear
     }
 
@@ -40,10 +32,5 @@ public class DashboardView : UIView {
 
 		//insert custom code here to be executed after view dissapeared
 	}
-
-	public void ShowEvents ()
-	{
-		segueToEvents.Perform();
-    }
 		
 }
