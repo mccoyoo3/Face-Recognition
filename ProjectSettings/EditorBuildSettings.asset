@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main/Scenes/ProfiPass.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Main/Scenes/RealTimeFaceRecognitionExample.unity
+    guid: efe6dfff940c74443ab9a05fea06e852
+  - enabled: 1
+    path: Assets/Main/Scenes/WebCamTextureRealTimeFaceRecognitionExample.unity
+    guid: 105008f14f3766747b369870c011be6e
+  - enabled: 1
+    path: Assets/Main/Scenes/ShowLicense.unity
+    guid: 833cab564bf80884f9d31f388737b535
   m_configObjects: {}

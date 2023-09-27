@@ -10,8 +10,9 @@ public class DashboardView : UIView {
 	public TextMeshProUGUI dateText;
 
 	public UISegue segueToEvents;
+    public UISegue segueToFacialRecognition;
 
-	public override void ViewWillAppear (UIView sourceView = null) {
+    public override void ViewWillAppear (UIView sourceView = null) {
 		base.ViewWillAppear (sourceView);
         // Get the current date and format it as desired
         string currentDate = DateTime.Now.ToString("dd-MM-yyyy");
@@ -45,5 +46,10 @@ public class DashboardView : UIView {
 	{
 		segueToEvents.Perform();
     }
-		
+
+    public void ShowFacialRecognition()
+    {
+        segueToFacialRecognition.Perform();
+    }
+
 }
